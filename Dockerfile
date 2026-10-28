@@ -12,7 +12,7 @@ RUN CGO_ENABLED=0 \
     -o healthcheck \
     healthcheck.go
 
-FROM dhi.io/eclipse-temurin:25.0.4.7-alpine3.24
+FROM dhi.io/eclipse-temurin:25.0.5.8-alpine3.24
 
 ARG APP_VERSION
 ARG BUILD_ID
